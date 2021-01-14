@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3 id="header3">This heading  has a document id of  "header3". 
+    <br>Once the button is clicked, This will get the documentid and run a function.
+    <br>The paragraph will change into "HELLO JC" while the other 
+    <br>will not change since there is no fucntion getting its doucment id</h3>
+    <hr width:100% size:2px>
+    <br><br><h3>THIS WILL NOT CHANGE</h3><br><br>
+
+    <hr width:100% size:2px>
+<button onclick="myFunction()">Test</button>
+
+<script>
+function myFunction() {
+  document.getElementById("header3").innerHTML = "Hello JC";
+ 
+}
+</script>
+
+</body>
+</html>

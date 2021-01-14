@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> QuerySelector</title>
+<body class="background">
+<table class="background">
+    <td>
+    <tr>This is a heading</tr>
+    </td>
+    <td>
+    <tr>this is a paragraph</tr>
+    </td>
+</table>
+<p>In this case, body tag and table tag has a classname of background</p>
+<p> Click the button to add a background color to the first element in the document with class="background".</p>
+<button onclick="myFunction()">Test</button>
+
+<script >
+function myFunction() {
+  document.querySelector(".background").style.backgroundColor = "red";
+}
+</script>
+
+</body>
+</html>

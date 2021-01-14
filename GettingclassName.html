@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div class="first" id="header3">Both Paragraph has classname="first", 
+  <br>but the function assigned var x with the value of 1.  
+    <br>so that the second paragraph will be changed</div>
+    <hr width:100% size:2px>
+    <div class="first" id="header3">THIS WILL NOT CHANGE</div>
+  
+    <hr width:100% size:2px>
+<button onclick="myFunction()">Test</button>
+
+<script>
+
+  function myFunction() {
+  var x = document.getElementsByClassName("first");
+  x[1].innerHTML = "Hello World!";
+}
+ 
+</script>
+
+</body>
+</html>
